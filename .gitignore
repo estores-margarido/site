@@ -1,0 +1,8 @@
+/_tmp/
+/.project
+/.settings
+.buildpath
+node_modules/*
+.htaccess
+/*/.gitignore
+.directory

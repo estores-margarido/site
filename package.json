@@ -1,0 +1,28 @@
+{
+  "name": "estores-margarido",
+  "version": "2.0.0",
+  "description": "Estores Margarido Website",
+  "homepage": "http://estoresmargarido.pt/",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Estores Margarido",
+    "Website"
+  ],
+  "author": "Cláudio Esperança <cesperanc@estoresmargarido.pt>",
+  "license": "GPL-3.0",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-less": "^1.3.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-csso": "^2.0.1",
+    "jshint": "^2.9.2"
+  }
+}

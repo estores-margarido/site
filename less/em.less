@@ -1,0 +1,48 @@
+@import (inline) "_bootstrap.min.css";
+@import (inline) "_main.css";
+@import (inline) "_supersized.css";
+@import (inline) "_supersized.shutter.css";
+@import (inline) "_jquery.fancybox.css";
+@import (inline) "_fonts.css";
+@import (inline) "_bootstrap-responsive.min.css";
+@import (inline) "_responsive.css";
+
+.sr-only{
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
+#quick-contacts{
+    float: right;
+    color: #FFF;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    overflow: hidden;
+    padding-right: 20px;
+
+    .contact{
+        display: inline-block;
+        height: 50px;
+    }
+
+    .icon{
+        font-size: 1.2em;
+        vertical-align: middle;
+        padding: 0 5px 0 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    #quick-contacts{
+        display: none;
+    }
+}
+
+nav#menu{
+    margin-top: 23px;
+}
