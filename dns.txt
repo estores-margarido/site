@@ -1,0 +1,74 @@
+dig estoresmargarido.pt any
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> estoresmargarido.pt any
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41892
+;; flags: qr rd ra; QUERY: 1, ANSWER: 8, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;estoresmargarido.pt.           IN      ANY
+
+;; ANSWER SECTION:
+estoresmargarido.pt.    14399   IN      TXT     "v=spf1 +a +mx +ip4:85.17.251.29 ?all"
+estoresmargarido.pt.    14399   IN      MX      10 aspmx.l.google.com.
+estoresmargarido.pt.    14399   IN      MX      20 alt2.aspmx.l.google.com.
+estoresmargarido.pt.    14399   IN      MX      30 aspmx2.googlemail.com.
+estoresmargarido.pt.    21599   IN      SOA     ns1-peace.vivawebhost.com. noc.vivawebhost.com. 2015122706 86400 7200 3600000 86400
+estoresmargarido.pt.    21599   IN      NS      ns2-peace.vivawebhost.com.
+estoresmargarido.pt.    21599   IN      NS      ns1-peace.vivawebhost.com.
+estoresmargarido.pt.    14399   IN      A       ns1-peace.vivawebhost.com.
+
+;; Query time: 1298 msec
+;; SERVER: 127.0.1.1#53(127.0.1.1)
+;; WHEN: Sun Sep 11 17:33:16 WEST 2016
+;; MSG SIZE  rcvd: 302
+
+
+
+new settings:
+
+dig @freedns1.registrar-servers.com estoresmargarido.pt any
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> @freedns1.registrar-servers.com estoresmargarido.pt any
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22971
+;; flags: qr aa rd; QUERY: 1, ANSWER: 11, AUTHORITY: 0, ADDITIONAL: 9
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 2800
+;; QUESTION SECTION:
+;estoresmargarido.pt.           IN      ANY
+
+;; ANSWER SECTION:
+estoresmargarido.pt.    1800    IN      NS      freedns1.registrar-servers.com.
+estoresmargarido.pt.    1800    IN      NS      freedns3.registrar-servers.com.
+estoresmargarido.pt.    1800    IN      NS      freedns2.registrar-servers.com.
+estoresmargarido.pt.    3601    IN      SOA     freedns1.registrar-servers.com. hostmaster.registrar-servers.com. 2016091100 3600 1801 604800 3601
+estoresmargarido.pt.    1800    IN      MX      5 ALT2.ASPMX.L.GOOGLE.com.
+estoresmargarido.pt.    1800    IN      NS      freedns5.registrar-servers.com.
+estoresmargarido.pt.    1800    IN      MX      5 ALT1.ASPMX.L.GOOGLE.com.
+estoresmargarido.pt.    1800    IN      NS      freedns4.registrar-servers.com.
+estoresmargarido.pt.    1800    IN      MX      10 ASPMX2.GOOGLEMAIL.com.
+estoresmargarido.pt.    1800    IN      MX      10 ASPMX3.GOOGLEMAIL.com.
+estoresmargarido.pt.    1800    IN      MX      1 ASPMX.L.GOOGLE.com.
+
+;; ADDITIONAL SECTION:
+freedns1.registrar-servers.com. 1800 IN A       208.64.122.242
+freedns3.registrar-servers.com. 1800 IN A       5.135.128.216
+freedns4.registrar-servers.com. 1800 IN A       62.210.149.102
+freedns3.registrar-servers.com. 1800 IN A       62.210.149.103
+freedns5.registrar-servers.com. 1800 IN A       192.99.40.34
+freedns2.registrar-servers.com. 1800 IN A       208.64.122.244
+freedns2.registrar-servers.com. 1800 IN A       72.20.38.137
+freedns1.registrar-servers.com. 1800 IN A       72.20.53.50
+
+;; Query time: 189 msec
+;; SERVER: 72.20.53.50#53(72.20.53.50)
+;; WHEN: Sun Sep 11 18:34:52 WEST 2016
+;; MSG SIZE  rcvd: 489
